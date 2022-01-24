@@ -1,8 +1,16 @@
-# Your Project's Name
+# OddJobs Jeeve
 
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
 Essentially, this part is your sales pitch.
+
+OddJobs Jeeve is made with the purpose for entertainment. This is a platformer game with a story concept that follows a small puffle creature called Jeeve and its journey through adult life where they would have to work hard juggling their many jobs just to survive in this competitive society. 
+
+In each Stage, it follows a different theme. For example, Stage 1 would have a fast food worker theme where the background and items would be representative of a fast food restaurant such as fries and burgers. Stage 2 would have a laundry worker theme where the background and items would be representative of a laundromat such as dirty shirts and pants and so on. 
+
+For the gameplay, it follows a simple platformer type mechanic where the player would move Jeeve and jump on platforms to collect the items. Each item would have their own points which would be colour coded. The red item would be +20 points, the blue item would be +10 points, the yellow item would be +5 points. 
+
+The players points and username would be stored in database via api. If they are in the top 20, their highscore would be available to be seen for all players that played the game.  at the end of each level.
  
 ## Design Process
  
