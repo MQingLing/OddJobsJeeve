@@ -4,10 +4,11 @@ OddJobs Jeeve is made with the purpose for entertainment. This is a platformer g
 
 In each Stage, it follows a different theme. For example, Stage 1 would have a fast food worker theme where the background and items would be representative of a fast food restaurant such as fries and burgers. Stage 2 would have a laundry worker theme where the background and items would be representative of a laundromat such as dirty shirts and pants and so on. 
 
-For the gameplay, it follows a simple platformer type mechanic where the player would move Jeeve and jump on platforms to collect the items. Each item would have their own points which would be colour coded. The red item would be +20 points, the blue item would be +10 points, the yellow item would be +5 points. 
+For the gameplay, it follows a simple platformer type mechanic where the player would move Jeeve and jump on platforms to collect the items. Each item would have their own points. The burger item would be +20 points, the fries item would be +10 points, the soda item would be +5 points etc.
 
 The players highscore per level and username would be stored in database via API. If they are the top 20 player in terms of highscore, their highscore would be available to be seen for all players that played the game at the end of each level.
- 
+ ![wireframe](wireframe.jpg)
+
 ## Design Process
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
