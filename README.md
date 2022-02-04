@@ -7,7 +7,7 @@ In each Stage, it follows a different theme. For example, Stage 1 would have a f
 For the gameplay, it follows a simple platformer type mechanic where the player would move Jeeve and jump on platforms to collect the items. Each item would have their own points. The burger item would be +20 points, the fries item would be +10 points, the soda item would be +5 points etc.
 
 The players highscore per level and username would be stored in database via API. If they are the top 20 player in terms of highscore, their highscore would be available to be seen for all players that played the game at the end of each level.
- ![wireframe](wireframe.jpg)
+https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ed016ff6-d690-35ac-a99d-845713088ff1
 
 ## Design Process
  
