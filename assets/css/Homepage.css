@@ -1,8 +1,25 @@
-/*==================== HOME ====================*/
-body{
-    background-image: url(../../Design/startscreen.png);
-    background-position: center;
+/*=============== HOMEPAGE Background Elements ===============*/
+body 
+{
+    background-image: url('../../Design/startscreen.png');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    height: 100%;
+}
+
+.logo
+{
+    position: absolute;
+    left: 10%;
+    top: 19%;
+}
+.logo img
+{
+    width: 90%;
+}
+
+.fas fa-volume-up
+{
+    position: absolute;
+    top:90%
 }
