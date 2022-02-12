@@ -15,16 +15,19 @@
     </head>
 
     <body>
-            <!--=============== HOMEPAGE Background Elements ===============-->
-            <div class="background">
-                <div class="logo">
-                    <img src="Design/Logo.png" alt="Logo">
-                </div>
-                
-                <div class="music_notes">
-                    <i class="fas fa-volume-up" style="font-size:150px; color:paleturquoise;"></i>></i>
-                    <i class="fas fa-volume-mute" style="font-size:150px; color:paleturquoise;"></i>></i>
-                </div>
+        <!--=============== HOMEPAGE Background Elements ===============-->
+        <div class="background">
+            <div class="splash_screen">
             </div>
+            <div class="logo">
+                <img src="Design/Logo.png" alt="Logo">
+            </div>
+            
+            <div class="music_notes">
+                <i class="fas fa-volume-up" id="music_icon"></i>
+                <audio src="assets/music/waitingMusic.mp3" type="audio/mp3" id="waitSong" loop="loop"></audio>
+            </div>
+        </div>
+        <script src="assets/js/Homepage.js"></script>
     </body>
 </html>

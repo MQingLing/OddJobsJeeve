@@ -18,8 +18,14 @@ body
     width: 90%;
 }
 
-.fas fa-volume-up
+.music_notes
 {
     position: absolute;
-    top:90%
+    left: 5%;
+    bottom: 3%;
+}
+.music_notes i
+{
+    font-size:43px; 
+    color:black;
 }
