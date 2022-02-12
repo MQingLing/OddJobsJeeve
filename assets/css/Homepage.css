@@ -21,11 +21,11 @@ body
 .music_notes
 {
     position: absolute;
-    left: 5%;
-    bottom: 3%;
+    left: 7%;
+    bottom: 4%;
 }
 .music_notes i
 {
-    font-size:43px; 
+    font-size:40px; 
     color:black;
 }
