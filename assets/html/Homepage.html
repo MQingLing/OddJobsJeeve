@@ -15,19 +15,23 @@
     </head>
 
     <body>
-        <!--=============== HOMEPAGE Background Elements ===============-->
-        <div class="background">
-            <div class="splash_screen">
-            </div>
-            <div class="logo">
-                <img src="../../Design/Logo.png" alt="Logo">
-            </div>
-            
-            <div class="music_notes">
-                <i class="fas fa-volume-up" id="music_icon"></i>
-                <audio src="../music/waitingMusic.mp3" type="audio/mp3" id="waitSong" loop="loop"></audio>
-            </div>
+        <!--=============== HOMEPAGE Elements ===============-->
+        <!--Insert logo-->
+        <div class="logo">
+            <img src="../../Design/Logo.png" alt="Logo">
         </div>
+
+        <!--Insert "START GAME" and "INSTRUCTIONS" button-->
+        <button type="button" class="start_button">START GAME</button>
+        <button type="button" class="intructions_button">INSTRUCTIONS</button>
+
+        <!--Insert music note icon-->
+        <div class="music_notes">
+            <i class="fas fa-volume-up" id="music_icon"></i>
+            <audio src="../music/waitingMusic.mp3" type="audio/mp3" id="waitSong" loop="loop"></audio>
+        </div>
+
+        <!--Getting external javascript-->
         <script src="../js/Homepage.js"></script>
     </body>
 </html>
