@@ -1,7 +1,7 @@
 /*=============== HOMEPAGE Background Elements ===============*/
 body 
 {
-    background-image: url('../../Design/levelscreen.png');
+    background-image: url('../../Design/Background/levelscreen.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -18,13 +18,29 @@ body
 {
     width: 90%;
 }
+
+/*To position lottie avatar*/
 .avatar
 {
     position: absolute;
     right: 1%;
     bottom: 37%;
 }
+
 /*To create "START GAME" and "INSTRUCTIONS" button*/
+button
+{
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 .start_button
 {
     position: absolute;
@@ -32,16 +48,12 @@ body
     height: 7%;
     bottom: 25%;
     left: 16.5%;
-    border-radius: 15px;
-    background-color: white;
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    cursor: pointer;
 }
+.start_button:hover 
+{
+    background-color: #ebebeb;
+}
+
 .intructions_button
 {
     position: absolute;
@@ -49,15 +61,10 @@ body
     height: 7%;
     bottom: 15%;
     left: 16.5%;
-    border-radius: 15px;
-    background-color: white;
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    cursor: pointer;
+}
+.intructions_button:hover 
+{
+    background-color: #ebebeb;
 }
 
 /*To position and resize music note icon*/
