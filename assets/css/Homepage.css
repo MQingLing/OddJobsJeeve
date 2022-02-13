@@ -19,12 +19,19 @@ body
     width: 90%;
 }
 
-/*To position lottie avatar*/
+/*To position lotties*/
 .avatar
 {
     position: absolute;
     right: 1%;
     bottom: 37%;
+}
+.burger
+{
+    position: absolute;
+    right: 1%;
+    top: 5%;
+    
 }
 
 /*To create "START GAME" and "INSTRUCTIONS" button*/
