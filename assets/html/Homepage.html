@@ -16,11 +16,6 @@
 
     <body>
         <!--=============== HOMEPAGE Elements ===============-->
-        <!--Insert logo-->
-        <div class="logo">
-            <img src="../../Design/Logo.png" alt="Logo">
-        </div>
-
         <!--Insert "START GAME" and "INSTRUCTIONS" button-->
         <button type="button" class="start_button">START GAME</button>
         <button type="button" class="intructions_button">INSTRUCTIONS</button>
@@ -31,16 +26,22 @@
             <audio src="../music/waitingMusic.mp3" type="audio/mp3" id="waitSong" loop="loop"></audio>
         </div>
 
-        <!--Adding lottie-->
+        <!--Adding lotties-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <!--This is a looped lottie-->
         <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_9cdoucbf.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay class="avatar"></lottie-player>
         
-        <!--This is a static lottie-->
+        <!--This are static lotties-->
         <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_rnzjt248.json" background="transparent" speed="1" style="width: 110px; height: 110px;" autoplay class="burger"></lottie-player>
         <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_futh09vo.json" background="transparent" speed="1" style="width: 160px; height: 160px;" autoplay class="fries"></lottie-player>
         
+        <!--Insert logo-->
+        <div class="logo">
+            <img src="../../Design/Logo.png" alt="Logo">
+            <audio src="../music/hey_sfx.m4a" type="audio/m4a" id="hey_sfx"></audio>
+        </div>
+
         <!--Getting external javascript-->
         <script src="../js/Homepage.js"></script>
     </body>

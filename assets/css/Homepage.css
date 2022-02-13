@@ -17,6 +17,29 @@ body
 .logo img
 {
     width: 90%;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+/*To animate logo*/
+@keyframes wiggle 
+{
+    0% {transform: rotate(3deg);}
+    25% {transform: rotate(-3deg);}
+    50% {transform: rotate(3deg);}
+    75% {transform: rotate(-3deg);}
+    100% {transform: rotate(3deg);}
+}
+
+.logo img.wiggle 
+{
+    display: inline-block;
+    animation: wiggle 2.5s infinite;
+}
+  
+.logo img.wiggleinterrupt
+{
+    animation: none;
 }
 
 /*To position lotties*/
@@ -56,9 +79,17 @@ button
     bottom: 25%;
     left: 16.5%;
 }
-.start_button:hover 
+
+/* This one only for desktop because mobile only can tap not hover
+.start_button:hover  
 {
     background-color: #ebebeb;
+}
+*/
+
+.start_button:active 
+{
+    background-color: #dfdfdf;
 }
 
 .intructions_button
@@ -69,9 +100,17 @@ button
     bottom: 15%;
     left: 16.5%;
 }
+
+/*
 .intructions_button:hover 
 {
     background-color: #ebebeb;
+}
+*/
+
+.intructions_button:active 
+{
+    background-color: #dfdfdf;
 }
 
 /*To position and resize music note icon*/
