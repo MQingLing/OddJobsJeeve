@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Level Selection</title>
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/level.css">
+
+        <!--==================== NORMALIZE CSS ====================-->
+        <link rel="stylesheet" type='text/css' href="assets/css/normalize.css">
+
+        <!--=============== External CSS Links ===============-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <!--==================== LEVEL SELECTION SCREEN ====================-->
+        <div class="screen levels">
+            <h1 class="title">SELECT YOUR LEVEL</h1>
+
+            <p>
+                <span class="level-block enabled" data-level="1">1</span>
+                <span class="level-block" data-level="2">2</span>
+                <span class="level-block" data-level="3">3</span>
+            </p>
+            <p>
+                <span class="level-block" data-level="4">4</span>
+                <span class="level-block" data-level="5">5</span>
+                <span class="level-block" data-level="6">6</span>
+            </p>
+            
+                
+            <p class="footer">
+                <button data-screen="menu">BACK TO MENU</button>
+            </p>
+        </div>
+
+        <!--Insert music note icon-->
+        <div class="music_notes">
+            <i class="fas fa-volume-up" id="music_icon"></i>
+            <audio src="waitingMusic.mp3" type="audio/mp3" id="waitSong" loop="loop"></audio>
+        </div>
+        
+        <!--==================== LEVELPAGE JS ====================-->
+        <script src="levelselectionv2.js" type="text/javascript"></script>
+    </body>
+</html>
