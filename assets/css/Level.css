@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('Design/Background/levelscreen.png');
+    background-image: url('../../Design/Background/levelscreen.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
