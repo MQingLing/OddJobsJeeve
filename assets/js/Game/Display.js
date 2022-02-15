@@ -160,7 +160,7 @@ function elt(name, className) {
       this.animationTime = 0;
       this.flipPlayer = false;
       this.sprites = document.createElement("img");
-      this.sprites.src = "img/bg_sprites.png";
+      this.sprites.src = "../../../Design/GameImg/bg_sprites.png";
       this.sprites = document.createElement("img");
       this.sprites.src = "../../../Design/GameImg/bg_sprites.png";
       this.playerSprite = document.createElement("img");
