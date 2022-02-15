@@ -1,38 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
+.game {
+    overflow: hidden;
+    max-width: 600px;
+    max-height: 450px;
+    position: relative;
+    margin: 0 auto;
   }
   
-body {
-    background: #f2f2f2;
-}
-  
-#canvas {
-    display:block;
-    margin: 40px auto 20px;
-    border: 1px solid #333;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.8);
-    height: auto;
-} 
-  
-p, a {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 19px;
-    color: #777;
-    display: block;
-    width: 400px;
+  canvas {
     margin: 0 auto;
-    text-align: center;
-    text-decoration:none;
-}
+    display: block;
+  }
   
-.info {
-    margin:14px auto;
-    text-align: justify;
-    font-size: 18px;
-    color: #999;
-}
+  .lost .player {
+    background: rgb(160, 64, 64);
+  }
+  .won .player {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  }
   
-a {
-    color:#3377ee;
-}
+  .actor  { position: absolute;            }
+  .coin   { background: rgb(241, 229, 89); }
+  .player { background: rgb(64, 64, 64);   }
+  
+  .background { 
+    background: rgb(52, 166, 251);
+    table-layout: fixed;
+    border-spacing: 0;              
+  }
+  
+  .background td { padding: 0;                     }
+  .lava          { background: rgb(255, 100, 100); }
+  .wall          { background: white;              }
+  
