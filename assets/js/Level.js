@@ -17,3 +17,8 @@ music_icon.onclick = function()
         music_icon.className = "fas fa-volume-mute";
     }
 }
+
+//redirect to main page
+document.querySelector(".menu-button").onclick = function () {
+    location.href = "../html/Homepage.html";
+};

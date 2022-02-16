@@ -22,29 +22,28 @@
 
         <!--Insert music note icon-->
         <div class="music_notes">
-            <i class="fas fa-volume-up" id="music_icon"></i>
-            <audio src="../music/waitingMusic.mp3" type="audio/mp3" id="waitSong" loop="loop"></audio>
+            <!--we decided to display the muted music icon on load to entice the user 
+            to click the icon due to chrome autoplay policy where autoplay is 
+            disabled when user have not interact with the page-->
+
+            <i class="fas fa-volume-mute" id="music_icon"></i>
+            <audio id="waitSong" autoplay loop src="../music/waitingMusic.mp3" type="audio/mp3"></audio>
         </div>
 
-        <!--Adding lotties-->
+        <!--Adding lottie player-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <!--This is a looped lottie-->
         <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_9cdoucbf.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay class="avatar"></lottie-player>
         
         <!--This are static lotties-->
-        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_rnzjt248.json" background="transparent" speed="1" style="width: 110px; height: 110px;" class="burger"></lottie-player>
-        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_futh09vo.json" background="transparent" speed="1" style="width: 160px; height: 160px;" class="fries"></lottie-player>
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_rnzjt248.json" background="transparent" speed="1" style="width: 110px; height: 110px;" autoplay class="burger"></lottie-player>
+        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_futh09vo.json" background="transparent" speed="1" style="width: 160px; height: 160px;" autoplay class="fries"></lottie-player>
         
         <!--Insert logo-->
         <div class="logo">
             <img src="../../Design/Logo.png" alt="Logo">
             <audio src="../music/hey_sfx.m4a" type="audio/m4a" id="hey_sfx"></audio>
-        </div>
-
-        <!--Insert splashScreen-->
-        <div class="splashScreen">
-            <img src="../../Design/Logo.png" alt="Logo">
         </div>
 
         <!--Getting external javascript-->
