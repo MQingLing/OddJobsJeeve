@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: Calibri, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /*Position and style title*/
@@ -12,9 +12,10 @@ body {
     position: absolute;
     text-transform: uppercase;
     color: rgb(255, 255, 140);
-    text-shadow: 8px 8px 0 #3c5b10;
-    font-size: 130px;
-    left: 13.5%;
+    text-shadow: 5px 5px 0 #3c5b10;
+    font-size: 100px;
+
+    left: 12%;
     top: 8%;
 }
 
@@ -64,14 +65,14 @@ body {
 /*Back to menu button*/
 .menu-button {
     position: absolute;
-    left: 25%;
+    left: 44%;
     top: 53%;
 
     background: hsl(85, 70%, 31%);
     padding: 15px 30px;
     color: white;
-    width: 500px;
-    height: 120px;
+    width: 130px;
+    height: 125px;
     font-size: 65px;
     border-radius: 20px;
     /* for desktop

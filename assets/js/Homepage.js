@@ -38,7 +38,10 @@ logo.onclick = function()
     },1100);
 }
 
-//redirect to level selection page
-document.querySelector(".start_button").onclick = function () {
-    location.href = "../html/Level.html";
-};
+//redirect to avatar selection page
+var startButton = document.querySelector(".start_button")
+
+startButton.onclick = function () 
+{
+    location.href = "../html/Avatar-Selection.html";
+}
