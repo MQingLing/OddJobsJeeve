@@ -1,3 +1,12 @@
+//Transition from splashpage to page
+document.body.addEventListener("click", function()   //when user interact with page play song. This function only start once
+{
+    var overlay = document.querySelector(".splashScreen");
+    
+    waitSong.play();
+    overlay.hidden = true;
+}, {once: true});
+
 //music player elements
 var waitSong = document.getElementById("waitSong");
 var music_icon = document.getElementById("music_icon");
