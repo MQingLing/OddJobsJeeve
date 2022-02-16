@@ -1,5 +1,7 @@
 * {
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -8,7 +10,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: Calibri, sans-serif;
-    text-align: center;
     margin: 2rem ;
     padding: 50px;
 }
@@ -19,9 +20,10 @@ body {
     font-weight: normal;
     color: rgb(255, 255, 140);
     text-shadow: 0 -1px 0 #3c5b10;
-    font-size:65px;
+    font-size: 75px;
+    min-width: 450px;
+    padding: 50px;
     margin:2rem,2rem;
-    text-align: center;
 }
 
 button {
@@ -31,9 +33,11 @@ button {
     padding: 15px 30px;
     color: white;
     cursor: pointer;
-    min-width: 250px;
+    min-width: 300px;
+    min-height: 110px;
     font-size: 50px;
     text-shadow: 0 -1px 0 #3c5b10;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 button:focus {
@@ -47,14 +51,10 @@ button:hover, button:active {
 
 
 .screen {
-    position:relative;
-	margin:200px;
+    position:absolute;
+	margin:205px;
     text-align: center;
 
-}
-
-.title {
-    font-size: 80px;
 }
 
 /*Level Selection Screen*/
@@ -65,7 +65,8 @@ button:hover, button:active {
     margin: 15px;
 	background-color: hsl(56, 11%, 45%);
 	color: hsl(0, 0%, 60%);
-	font-size: 75px;
+	font-size: 80px;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .levels.screen .level-block.enabled {
 	background-color: hsl(85, 70%, 31%);
@@ -93,4 +94,5 @@ button:hover, button:active {
 
 .footer {
 	margin-top: 80px;
+    font-size: 45px;
 }
