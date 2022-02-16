@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Platform JS</title>
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="tutorialpage.css">
+
+        <!--==================== NORMALIZE CSS ====================-->
+        <link rel="stylesheet" type='text/css' href="assets/css/Normalize.css">
+
+        <!--=============== External CSS Links ===============-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+    <!--==================== TUTORIAL ====================-->
+    <div class="tutorial">
+        <h1 class="title">INSTRUCTIONS</h1>
+        
+        <div class="controls">
+            <h3>Controls:</h3>
+            <p>Move your player using arrow keys</p>
+            <div class="up-arrow"><i class="fa-solid fa-angle-up"></i></div>
+            <div class="left-arrow"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="right-arrow"><i class="fa-solid fa-angle-right"></i></div>
+            <div class="down-arrow"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+    
+        <div class="aim">
+            <h3>Aim:</h3>
+            <p>Collect as many items as possible within the time range</p>
+        </div>
+
+            
+        <div class="menu-button">
+            <button>BACK TO MENU</button>
+        </div>
+
+        <!--Insert music note icon-->
+        <div class="music_notes">
+            <i class="fas fa-volume-mute" id="music_icon"></i>
+            <audio id="waitSong" autoplay loop src="../music/waitingMusic.mp3" type="audio/mp3"></audio>
+        </div>
+
+        <!--==================== TUTORIALPAGE JS ====================-->
+        <script src="../js/tutorial.js" type="text/javascript"></script>
+    </body>
+</html>
