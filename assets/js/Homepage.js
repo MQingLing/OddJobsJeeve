@@ -45,3 +45,11 @@ startButton.onclick = function ()
 {
     location.href = "../html/Avatar-Selection.html";
 }
+
+//redirect to tutorial page
+var startButton = document.querySelector(".intructions_button")
+
+startButton.onclick = function () 
+{
+    location.href = "../html/tutorial.html";
+}
