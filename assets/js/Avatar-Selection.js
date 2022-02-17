@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 //redirect to homepage page
 document.querySelector(".menu-button").onclick = function () {
     location.href = "../html/Homepage.html";
@@ -8,11 +6,6 @@ document.querySelector(".menu-button").onclick = function () {
 //redirect to game page
 document.querySelector(".play-button").onclick = function () {
     location.href = "../../game.html";
-};
-=======
-//redirect to main page
-document.querySelector(".submit-button").onclick = function () {
-    location.href = "../html/Level.html";
 };
 
 //random color generator
@@ -23,11 +16,10 @@ function getRandomColor() {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-  }
+}
   
   
   
-  function setRandomColor() {
+function setRandomColor() {
     $("#colorpad").css("background-color", getRandomColor());
-  }
->>>>>>> 0913792d6ff2dc977d258d4e3312595faf97eec3
+}
