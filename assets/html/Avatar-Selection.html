@@ -17,12 +17,28 @@
     <body>
         <!--Making Avatar selection pop-up-->
         <h2>Create your jeevie!</h2>
-        <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter username" required>
-
+        <div class="user">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder=" Enter username" required>
+        </div>
+        <div class="pass">
         <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter password" required>
+        <input type="password" id="password" placeholder=" Enter password" required>
+        </div>
 
-        <input type="submit" value="Play" >
+        <div class="icon-button">
+            <span class="color-button"><i class="fa-solid fa-palette" id="icon"></i></button>
+            <span class="menu-button"><i class="fa-solid fa-reply" id="icon"></i></button>
+            <span class="play-button"><i class="fa-solid fa-play" id="icon"></i></button>
+        </div>
+
+        <!--Insert music note icon-->
+        <div class="music_notes">
+            <i class="fas fa-volume-mute" id="music_icon"></i>
+            <audio id="waitSong" autoplay loop src="../music/waitingMusic.mp3" type="audio/mp3"></audio>
+        </div>
+        
+        <!--==================== AVATAR-SELECTION JS ====================-->
+        <script src="../js/Avatar-Selection.js" type="text/javascript"></script>
     </body>
 </html>

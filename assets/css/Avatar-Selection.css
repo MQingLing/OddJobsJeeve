@@ -1,0 +1,129 @@
+body {
+    background-image: url('../../Design/Background/levelscreen.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Gill Sans MT';
+}
+
+h2 {
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(255, 255, 140);
+    text-shadow: 3px 3px 0 #3c5b10;
+    font-size: 30px;
+    left: 10%;
+    top: 8%;
+}
+.user label{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 20px;
+    left: 10%;
+    top: 30%;
+}
+#username{
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.5;
+    font-size: 20px;
+    left: 40%;
+    top: 29.3%;
+    height: 30px;
+    border-radius: 35px;
+    border: none;
+}
+
+.pass label{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 20px;
+    left: 10%;
+    top: 40%;
+}
+#password{
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.5;
+    font-size: 20px;
+    left: 40%;
+    top: 39.3%;
+    height: 30px;
+    border-radius: 35px;
+    border: none;
+}
+
+.play-button{
+    position: absolute;
+    border-radius: 35px;
+    bottom: 0%;
+    left: 250%;
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+    background: white;
+    color: hsl(85, 70%, 31%);
+    border: none;
+}
+
+.play-button #icon {
+    position: absolute;
+    width: 25px;
+    bottom: 29%;
+    left: 26%;
+}
+
+
+.menu-button{
+    position: absolute;
+    border-radius: 35px;
+    bottom:0%;
+    left: 230%;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    outline: none;
+    background: white;
+    color: hsl(85, 70%, 31%);
+}
+
+.menu-button #icon {
+    position: absolute;
+    width: 25px;
+    bottom: 29%;
+    left: 26%;
+}
+
+.color-button{
+    position: absolute;
+    border-radius: 35px;
+    bottom:20%;
+    left: 13%;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    background: white;
+    color: hsl(85, 70%, 31%);
+}
+
+.color-button #icon {
+    position: absolute;
+    width: 25px;
+    bottom: 29%;
+    left: 26%;
+}
+
+/*To position and resize music note icon*/
+.music_notes
+{
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+.music_notes i
+{
+    font-size:36px; 
+    color:black;
+}
