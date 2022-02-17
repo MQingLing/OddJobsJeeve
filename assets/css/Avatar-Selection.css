@@ -11,14 +11,14 @@ h2 {
     text-transform: uppercase;
     color: rgb(255, 255, 140);
     text-shadow: 3px 3px 0 #3c5b10;
-    font-size: 30px;
-    left: 10%;
+    font-size: 28px;
+    left: 7.5%;
     top: 8%;
 }
 .user label{
     position: absolute;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     left: 10%;
     top: 30%;
 }
@@ -27,7 +27,7 @@ h2 {
     text-transform: uppercase;
     color: black;
     opacity: 0.5;
-    font-size: 20px;
+    font-size: 15px;
     left: 40%;
     top: 29.3%;
     height: 30px;
@@ -38,7 +38,7 @@ h2 {
 .pass label{
     position: absolute;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     left: 10%;
     top: 40%;
 }
@@ -47,7 +47,7 @@ h2 {
     text-transform: uppercase;
     color: black;
     opacity: 0.5;
-    font-size: 20px;
+    font-size: 15px;
     left: 40%;
     top: 39.3%;
     height: 30px;
@@ -58,8 +58,8 @@ h2 {
 .play-button{
     position: absolute;
     border-radius: 35px;
-    bottom: 0%;
-    left: 250%;
+    bottom: 20%;
+    left: 75%;
     width: 55px;
     height: 55px;
     font-size: 23px;
@@ -79,8 +79,8 @@ h2 {
 .menu-button{
     position: absolute;
     border-radius: 35px;
-    bottom:0%;
-    left: 230%;
+    bottom:20%;
+    left: 43%;
     width: 55px;
     height: 55px;
     font-size: 25px;
@@ -114,6 +114,9 @@ h2 {
     bottom: 29%;
     left: 26%;
 }
+button{
+    border: none;
+}
 
 /*To position and resize music note icon*/
 .music_notes
@@ -127,3 +130,9 @@ h2 {
     font-size:36px; 
     color:black;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: "../../Design/Background/levelscreen.png";
+    }
+  }
