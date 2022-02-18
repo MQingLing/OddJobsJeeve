@@ -38,3 +38,13 @@ music_icon.onclick = function()
         music_icon.className = "fas fa-volume-mute";
     }
 }
+$('.signup-button').click(function(){
+    $('#modal').css('display','block');
+    $('.modal-bg').fadeIn();
+});
+
+$('#close').click(function(){
+        $('.modal-bg').fadeOut();		
+        $('#modal').fadeOut();
+    return false;
+});

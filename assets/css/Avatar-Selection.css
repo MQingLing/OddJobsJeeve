@@ -138,8 +138,139 @@ button{
     color:black;
 }
 
+/* forget password*/
+#forgot-link{
+    /*color: #0FC491;*/
+    color: rgb(255, 255, 140);
+    text-shadow: 1px 1px 0 black;
+    position: absolute;
+    bottom: 385px;
+    left: 38px;
+}
+a{
+	outline: 0;
+	text-decoration: none;
+    /*color: #0FC491;*/
+    color: rgb(255, 255, 140);
+    text-shadow: 1px 1px 0 black;
+}
+.modal-bg{
+	position:absolute;
+	left:0;right:0;
+	top:0;bottom:0;
+	background-color:rgba(50,50,50,0.5);
+}
+
+/*Signup button on avatar page*/
+.signup-button{
+	position:absolute;
+	font-size:17px;
+	background:white;
+	border-radius: 3px;
+	padding:7px 15px;
+	color:black;
+	cursor:pointer;
+    bottom: 40%;
+    left: -10%;
+	margin:50px 70px;
+ 	-webkit-transition:margin 100ms;
+	-moz-transition:margin 100ms;
+	transition:margin 100ms ;	
+}
+.signup-button:active{
+   margin: 53px 70px;
+}
+
+.signup-button:hover{
+	background: rgb(255, 255, 140);
+}
+form{
+	display:block;
+	margin:50px;
+    position: absolute;
+    bottom: -5%;
+}
+form *{
+	margin:10px;
+}
+
+/*signup page username*/
+#signup-username{
+    position: absolute;
+	width: 200px;
+	padding:10px;
+	border-radius:15px;
+    border: none;
+    bottom: 100px;
+}
+
+#signup-password{
+    width:200px;
+	padding:10px;
+	border-radius:15px;
+    border: none;
+    position: absolute;
+    bottom: 50px;
+
+}
+
+#modal{ 
+	position:absolute;
+	background-color:#F5F5F6;
+	top:50%; 
+	left:50%;
+	z-index:101;
+	border-radius:3px;
+	width:340px;
+	height:260px;
+	margin-top:-130px;
+	margin-left:-170px;
+	border-bottom: 3px solid hsl(85, 69%, 48%);
+	box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+#submit-button{
+    float: right;
+	padding: 8px 12px;
+	margin-top: 15px;
+	background: #87CEEB;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+#submit-button:active{
+	margin: 18px 10px;
+}
+#submit-button:hover{
+	background-color: hsl(85, 69%, 48%);
+}
+
+
+#modal span{
+	display: block;
+	background:#87CEEB;
+	padding: 10px;
+	color:#fff;
+}
+
+#modal span:hover{
+	background-color: hsl(85, 69%, 48%);
+}
+#close{
+	float: right;
+	color: #fff;
+    margin-top:-4px;
+	font-family: serif;
+	font-size: 20px;
+}
+#close:hover{
+	color:gray;
+}
+
 @media only screen and (max-width: 600px) {
     body {
       background-image: "../../Design/Background/levelscreen.png";
     }
-  }
+}
