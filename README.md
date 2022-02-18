@@ -19,7 +19,7 @@ These files should themselves either be included as a pdf file in the project it
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 Since this game is dedicated to children, we choose a bright color pallete to use in the design of the game. This is because children are more likely to be more attentive while playing the game if it is colored with flashy and bright colors instead of dull and neutral colors. This can be seen in out design of the background shown below.
-<img src="Design/Background/levelscreen.png" width="100px" height="300px">1440 x 2960
+<img src="Design/Background/levelscreen.png" width="140px" height="300px">
 
 We made the design of the character to be cute and innocent looking by using soft strokes and more curved lines. We also choose to make our homepage more lively by adding a lottie animation of the avatar jumping up and down happily. This to give the impression of friendliness and joy to children while they are playing the game.
 <img src="Design/../img/avatar.png" style="width=10%; height=10%">
