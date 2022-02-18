@@ -35,17 +35,16 @@ body {
     margin: 25px;
 	background-color: hsl(85, 70%, 31%);
     border-radius: 20px;
+    font-size: 80px;
 }
 .level-block p
 {
     color: white;
-    font-size: 80px;
     margin-top: 20%;
 }
 .level-block #lock_icon
 {
     color: rgb(211, 211, 211);
-    font-size: 70px;
     margin-top: 20%;
 }
 
@@ -65,7 +64,7 @@ body {
 /*Back to menu button*/
 .menu-button {
     position: absolute;
-    left: 44%;
+    right: 20%;
     top: 53%;
     background: hsl(85, 70%, 31%);
     padding: 15px 30px;
@@ -87,11 +86,64 @@ body {
 .music_notes
 {
     position: absolute;
-    left: 10%;
-    bottom: 5%;
+    left: 20%;
+    top: 53.5%;
 }
 .music_notes i
 {
-    font-size:100px; 
+    font-size:110px; 
     color:black;
+}
+@media (min-width:1200px)
+{
+    /*To change the bg img something more suited to desktop*/
+    body
+    {
+        background-image: url('../../Design/Background/desktop.png');
+    }
+
+    .title
+    {
+        font-size: 50px;
+        left: 38%;
+    }
+    
+    .level-buttons .level-block {
+        width: 55px;
+        height: 55px;
+        border-radius: 15px;
+        font-size: 33px;
+        margin: 15px;
+    }
+
+    .level-buttons{
+        top: 30%;
+        left: 41.5%;
+        width: 300px;
+    }
+
+    /*To position and resize music note icon*/
+    .music_notes
+    {
+        left: 38%;
+        top: 63.5%;
+    }
+    .music_notes i
+    {
+        font-size:45px; 
+        color:black;
+    }
+    /*Back to menu button*/
+    .menu-button {
+        right: 38%;
+        top: 62.5%;
+        padding: 5px 5px;
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 15px;
+        /* for desktop
+        cursor: pointer;
+        */
+    }
 }
