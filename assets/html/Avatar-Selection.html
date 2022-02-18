@@ -17,6 +17,9 @@
     <body>
         <!--Making Avatar selection pop-up-->
         <h2>Create your jeevie!</h2>
+
+        <h3 id="success-login">Successful Login!</h3>
+        
         <div class="user">
             <label for="username">Username</label>
             <input type="text" id="username" placeholder=" Enter username" required>
@@ -26,6 +29,10 @@
         <input type="password" id="password" placeholder=" Enter password" required>
         </div>
 
+        <!--Adding lottie-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_fdnpwmcq.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay id="avatar"></lottie-player>
+                
         <div class="icon-button">
             <button class="color-button"><i class="fa-solid fa-palette" id="icon"></i></button>
             <button class="menu-button"><i class="fa-solid fa-reply" id="icon"></i></button>
@@ -39,6 +46,8 @@
         </div>
         
         <!--==================== AVATAR-SELECTION JS ====================-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script src="../js/Avatar-Selection.js" type="text/javascript"></script>
+        
     </body>
 </html>

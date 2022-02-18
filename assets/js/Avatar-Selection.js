@@ -1,5 +1,16 @@
+/*customization
+const text = '[ "https://assets2.lottiefiles.com/packages/lf20_72mk2fpb.json", "https://assets4.lottiefiles.com/private_files/lf30_fdnpwmcq.json" ]';
+const myArr = JSON.parse(text);
+
+$("#avatar").src = myArr[0];
+*/
+
+//Api 
+
+//Button redirections
 //redirect to homepage page
-document.querySelector(".menu-button").onclick = function () {
+document.querySelector(".menu-button").onclick = function () 
+{
     location.href = "../html/Homepage.html";
 };
 
@@ -8,18 +19,22 @@ document.querySelector(".play-button").onclick = function () {
     location.href = "../../game.html";
 };
 
-//random color generator
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
+//music player elements
+var waitSong = document.getElementById("waitSong");
+var music_icon = document.getElementById("music_icon");
+waitSong.loop = true;
+
+//music player interactability
+music_icon.onclick = function()
+{
+    if(waitSong.paused)
+    {
+        waitSong.play();
+        music_icon.className = "fas fa-volume-up";
     }
-    return color;
-}
-  
-  
-  
-function setRandomColor() {
-    $("#colorpad").css("background-color", getRandomColor());
+    else
+    {
+        waitSong.pause();
+        music_icon.className = "fas fa-volume-mute";
+    }
 }
