@@ -63,11 +63,16 @@ function runGame(plans, Display) {
 	function startLevel(n) {
 		runLevel(new Level(plans[n]), Display, function(status) {
 			if(status == "lost")
-				startLevel(n);
-			else if(n < plans.length - 1)
-				startLevel(n + 1);
+			{
+				alert("You lose! GAME OVER");
+				location.href = "../Interactive_Media_Application/assets/html/Homepage.html";
+			}
 			else
+			{
 				console.log("You win!");
+				alert("You win!");
+				location.href = "../Interactive_Media_Application/assets/html/Homepage.html";
+			}
 		});
 	}
 	startLevel(0);
