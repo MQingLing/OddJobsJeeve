@@ -27,7 +27,7 @@ We made a sprite sheet which is made with pixels in photoshop for the game
 <img src="../Interactive_Media_Application/img/avatar-sprite.png">
 
 We made icons in illustrator that the player need to collect
-<img src="../Interactive_Media_Application/Design/Avatar/Fries.png">
+<img src="Design/Avatar/Fries.png">
 <img src="../Interactive_Media_Application/Design/Avatar/Burger.png">
 <img src="../Interactive_Media_Application/Design/Avatar/Ice-cream.png">
 
