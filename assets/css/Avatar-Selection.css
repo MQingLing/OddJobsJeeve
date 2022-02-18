@@ -11,8 +11,8 @@ h2 {
     text-transform: uppercase;
     color: rgb(255, 255, 140);
     text-shadow: 3px 3px 0 #3c5b10;
-    font-size: 45px;
-    left: 33%;
+    font-size: 25px;
+    left: 18%;
     top: 5%;
 }
 
@@ -297,10 +297,4 @@ form *{
 }
 #close:hover{
 	color:gray;
-}*/
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-image: "../../Design/Background/levelscreen.png";
-    }
 }

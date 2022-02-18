@@ -5,6 +5,8 @@ const myArr = JSON.parse(text);
 $("#avatar").src = myArr[0];
 */
 
+$('#modal').hide();
+$('.modal-bg').hide();		
 
 //Api 
 $(document).ready(function () 
