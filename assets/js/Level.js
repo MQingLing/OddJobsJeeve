@@ -22,3 +22,7 @@ music_icon.onclick = function()
 document.querySelector(".menu-button").onclick = function () {
     location.href = "../html/Homepage.html";
 };
+
+document.querySelector(".level-block.enabled").onclick = function () {
+    location.href = "../../game.html";
+};

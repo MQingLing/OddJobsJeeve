@@ -15,40 +15,25 @@
     </head>
 
     <body>
-        <!--Making Avatar selection pop-up-->
         <h2>Create your jeevie!</h2>
 
         <h3 id="success-login">Successful Login!</h3>
         
-        <div class="user">
-            <label for="username">Username</label>
-            <input type="text" id="username" placeholder=" Enter username" required>
-        </div>
-        <div class="pass">
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder=" Enter password" required>
+        <form class="login">
+            <div class="user">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder=" Enter username" required>
+            </div>
+
+            <div class="pass">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder=" Enter password" required>
+            </div>
+        </form>
+
         <a id="forgot-link" href="#">Forgot password?</a>
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder=" Enter password" required>
-        </div>
+        <span class="signup-button">Sign up</span>
 
-        <!--Adding lottie-->
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_fdnpwmcq.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay id="avatar"></lottie-player>
-                
-        <div class="icon-button">
-            <button class="color-button"><i class="fa-solid fa-palette" id="icon"></i></button>
-            <button class="menu-button"><i class="fa-solid fa-reply" id="icon"></i></button>
-            <span class="play-button"><i class="fa-solid fa-play" id="icon"></i></button>
-        </div>
-
-        <!--Insert music note icon-->
-        <div class="music_notes">
-            <i class="fas fa-volume-mute" id="music_icon"></i>
-            <audio id="waitSong" autoplay loop src="../music/waitingMusic.mp3" type="audio/mp3"></audio>
-        </div>
-
-        <span class="signup-button">Click to sign up</span>
         <div class="modal-bg">
             <div id="modal">
                 <span>Sign up<a href="#close" id="close">&#215;</a></span>
@@ -59,6 +44,22 @@
                     <button name="submit" id="submit-button" type="submit">Sign up</button>
                 </form>
             </div>
+        </div>
+
+        <!--Adding lottie-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_fdnpwmcq.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay id="avatar"></lottie-player>
+                
+        <div class="icon-button">
+            <button class="color-button"><i class="fa-solid fa-palette" id="icon"></i></button>
+            <button class="menu-button"><i class="fa-solid fa-reply" id="icon"></i></button>
+            <button class="play-button"><i class="fa-solid fa-play" id="icon"></i></button>
+        </div>
+
+        <!--Insert music note icon-->
+        <div class="music_notes">
+            <i class="fas fa-volume-mute" id="music_icon"></i>
+            <audio id="waitSong" autoplay loop src="../music/waitingMusic.mp3" type="audio/mp3"></audio>
         </div>
         
         <!--==================== AVATAR-SELECTION JS ====================-->

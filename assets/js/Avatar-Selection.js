@@ -90,7 +90,7 @@ document.querySelector(".menu-button").onclick = function ()
 //redirect to game page
 document.querySelector(".play-button").onclick = function () 
 {
-    location.href = "../../game.html";
+    location.href = "../../assets/html/Level.html";
 };
 
 //music player elements
