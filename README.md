@@ -120,3 +120,6 @@ Chrome has this policy where they dont allow autoplay so even though we wanted t
 
 ### Acknowledgements
 - We received inspiration for this project from platformer game **mario**
+
+## GitHub Page
+- https://mqingling.github.io/OddJobsJeeve
