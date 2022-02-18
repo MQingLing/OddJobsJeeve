@@ -22,13 +22,21 @@ Since this game is dedicated to children, we choose a bright color pallete to us
 <img src="Design/Background/startscreen.png" width="150px" height="300px">
 
 We made the design of the character to be cute and innocent looking by using soft strokes and more curved lines. We also choose to make our homepage more lively by adding a lottie animation of the avatar jumping up and down happily. This to give the impression of friendliness and joy to children while they are playing the game.
-<img src="Design/../img/avatar.png">
+<img src="Design/Avatar/AvatarMovement">
 
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
-### Existing Features
+### Homepage
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
+
+### Level
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
+
+### Game
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -39,30 +47,32 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-- [HTML]
+- [HTML](https://www.w3schools.com/html/)
     - The project uses **HTML** to create content for the web game.
-- [CSS]
+- [CSS](https://www.w3schools.com/css/)
     - **CSS** to style the content of the web game.
-- [Normalize CSS]
+- [Normalize CSS](https://necolas.github.io/normalize.css/)
     - **Normalize CSS** was used to normalize styles across browsers so that the style will be consistent.
-- [JavaScript]
+- [JavaScript](https://www.javascript.com/)
     - **JavaScript** to allow the web game to be interactive and API implementation.
-- [Lottie] 
+- [Lottie](https://lottiefiles.com/editor)
     - **Lottie** was used to create avatar animation.
-- [Photoshop]
+- [Photoshop](https://www.adobe.com/sg/products/photoshop.html)
     - **Photoshop**
-- [Adobe Illustrator]
+- [Adobe Illustrator](https://www.adobe.com/sg/products/illustrator.html)
     - **AI** was used to create Sprite Sheet for the movement of characters in game.
-- [Font Awesome]
+- [Font Awesome](https://fontawesome.com/icons)
     - Retrived icon design from font awesome.
-- [RestDB]
+- [RestDB](https://restdb.io)
     - **RestDB** for storing username and password. 
-- [JQuery]
+- [JQuery](https://jquery.com/)
     - Collection of the "items" in each web game level.
-- [Canvas]
+- [Canvas](https://www.w3schools.com/tags/ref_canvas.asp)
     - **Canvas** was used to draw graphics via scripting(js). For instance, background the the web game
-- [DOM]
-    - **DOM** comprise the structure and content of a document on the web
+- [DOM](https://www.w3schools.com/js/js_htmldom.asp)
+    - **DOM** comprise the structure and content of a document on the web.
+- Recorder
+    - **Recorder** was used to record the music played in the web game.
 
 ## Testing
 
@@ -83,11 +93,13 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- [CodePen](https://codepen.io/)
+   - Reference for the signup section
 
 ### Media
-- The photos used in this site were obtained from ...
+- Credit to Hanisah for the lottie animation and photoshop avatar inculding background
+- Credit to Qing Ling for the adobe illustrator for the game items
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from platformer game **mario**

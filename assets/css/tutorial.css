@@ -76,6 +76,12 @@ body {
     font-size: 60px;
 }
 
+.aim .items img
+{
+    width: 100px;
+    height: 160px;
+}
+
 /*To position and style the back to menu button*/
 button {
     background: hsl(85, 70%, 31%);
@@ -166,7 +172,11 @@ button:hover, button:active {
         right: 15%;
         top: 19%;
     }
-
+    .aim .items img
+    {
+        width: 50px;
+        height: 60px;
+    }
     /*To position and style the music note*/
     .music_notes
     {

@@ -24,5 +24,5 @@ document.querySelector(".menu-button").onclick = function () {
 };
 
 document.querySelector(".level-block.enabled").onclick = function () {
-    location.href = "../../originalindex.html";
+    location.href = "../../game.html";
 };
