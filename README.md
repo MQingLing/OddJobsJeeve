@@ -9,7 +9,7 @@ We implemented a highscore leaderboard to spark our players competitiveness whil
 
 ## Design Process
 After we decided on our theme, we made a low fidelity wireframe as seen here. This would be a draft for our future edits.
-<img src="Design/Wireframe/Screenshot%20(91).png" width="300px" height="150px">
+<img src="Design/Wireframe/Screenshot%20(91).png" width="300px" height="450px">
 
 Since this game is dedicated to children, we choose a bright color pallete to use in the design of the game. This is because children are more likely to be more attentive while playing the game if it is colored with flashy and bright colors instead of dull and neutral colors. This can be seen in out design of the homepage shown below.
 <img src="Design/Background/startscreen.png" width="150px" height="300px">
@@ -27,9 +27,9 @@ We made a sprite sheet which is made with pixels in photoshop for the game
 <img src="../Interactive_Media_Application/img/avatar-sprite.png">
 
 We made icons in illustrator that the player need to collect
-<img src="Design/Avatar/Fries.png" width="150px" height="300px">
-<img src="Design/Avatar/OriginalBurger.png" width="150px" height="300px">
-<img src="Design/Avatar/Ice-cream.png" width="150px" height="300px">
+<img src="Design/Avatar/Fries.png" width="150px" height="100px">
+<img src="Design/Avatar/OriginalBurger.png" width="150px" height="100px">
+<img src="Design/Avatar/Ice-cream.png" width="150px" height="100px">
 
 We also made music and soundeffect for the user to enjoy
 <audio loop src="../Interactive_Media_Application/assets/music/waitingMusic.mp3" type="audio/mp3"></audio>
