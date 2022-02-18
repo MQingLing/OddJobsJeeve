@@ -11,9 +11,9 @@ h2 {
     text-transform: uppercase;
     color: rgb(255, 255, 140);
     text-shadow: 3px 3px 0 #3c5b10;
-    font-size: 28px;
-    left: 7.5%;
-    top: 8%;
+    font-size: 45px;
+    left: 33%;
+    top: 5%;
 }
 
 #success-login
@@ -24,63 +24,6 @@ h2 {
     color: hsl(85, 70%, 31%);
 }
 
-/*To position and style the register button*/
-.register
-{
-    position:absolute;
-    bottom: 52.5%;
-    right: 19%;
-    cursor: pointer;
-}
-
-.register-pop-up
-{
-    width: 300px;
-    height: 170px;
-    background-color: rgb(235, 235, 116);
-
-    position: absolute;
-    top: 26%;
-    left: 8.5%;
-    border-radius: 5%;
-}
-
-.register-pop-up .user label
-{
-    position: absolute;
-    left: 5%;
-    top: 23%;
-}
-
-.register-pop-up .pass label
-{
-    position: absolute;
-    left: 5%;
-    top: 50%;
-}
-
-.register-pop-up #username{
-    position: absolute;
-    top:20%;
-}
-.register-pop-up #password{
-    position: absolute;
-    top: 47%;
-}
-
-.register-pop-up button
-{
-    width: 60px;
-    height: 25px;
-    position: absolute;
-    right: 5%;
-    bottom: 7%;
-}
-
-#close
-{
-    font-size: 25px;
-}
 
 /*To position and style the login*/
 .user label{
@@ -94,7 +37,7 @@ h2 {
     position: absolute;
     text-transform: uppercase;
     color: black;
-    opacity: 0.5;
+    opacity: 0.65;
     font-size: 15px;
     left: 40%;
     top: 29.3%;
@@ -213,11 +156,14 @@ button{
 #forgot-link{
     /*color: #0FC491;*/
     color: rgb(255, 255, 140);
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 0px 1px 0 black;
     position: absolute;
     bottom: 385px;
     left: 38px;
 }
+#forgot-link:active{
+    margin: 3px 5px;
+ }
 a{
 	outline: 0;
 	text-decoration: none;
@@ -236,13 +182,15 @@ a{
 .signup-button{
 	position:absolute;
 	font-size:17px;
-	background:white;
-	border-radius: 3px;
+	opacity: 0.9;
+	border-radius: 30px;
 	padding:7px 15px;
-	color:black;
+	color:rgb(255, 255, 140);
+    font-weight: bold;
+    text-shadow: 0px 1px 0 black;
 	cursor:pointer;
     bottom: 40%;
-    left: -10%;
+    left: 20%;
 	margin:50px 70px;
  	-webkit-transition:margin 100ms;
 	-moz-transition:margin 100ms;
@@ -253,8 +201,11 @@ a{
 }
 
 .signup-button:hover{
-	background: rgb(255, 255, 140);
+	background: white;
+    color: #98ddf8;
+    text-shadow: none;
 }
+
 form{
 	display:block;
 	margin:50px;
@@ -273,6 +224,10 @@ form *{
 	border-radius:15px;
     border: none;
     bottom: 100px;
+    background-color: #98ddf8;
+}
+#signup-username::placeholder{
+    color: white;
 }
 
 #signup-password{
@@ -281,54 +236,58 @@ form *{
 	border-radius:15px;
     border: none;
     position: absolute;
+    opacity: 0.9;
     bottom: 50px;
+    background-color: #98ddf8;
 
 }
-
+#signup-password::placeholder{
+    color: white;
+}
 #modal{ 
 	position:absolute;
-	background-color:#F5F5F6;
+	background-color:white;
 	top:50%; 
 	left:50%;
 	z-index:101;
-	border-radius:3px;
+	border-radius:10px;
 	width:340px;
 	height:260px;
 	margin-top:-130px;
 	margin-left:-170px;
-	border-bottom: 3px solid hsl(85, 69%, 48%);
+	border-bottom: 3px solid #98ddf8;
 	box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+    
 }
 
 #submit-button{
     float: right;
 	padding: 8px 12px;
 	margin-top: 15px;
-	background: #87CEEB;
 	border: none;
-	color: #fff;
+	color: #98ddf8;
 	border-radius: 10px;
 	cursor: pointer;
+    background-color: white;
 
 }
 #submit-button:active{
 	margin: 18px 10px;
 }
 #submit-button:hover{
-	background-color: hsl(85, 69%, 48%);
+	background-color:#98ddf8;
+    color: white;
 }
 
 
 #modal span{
 	display: block;
-	background:#87CEEB;
+	background: #98ddf8;
+    border-radius:10px 10px 0 0;
 	padding: 10px;
 	color:#fff;
 }
 
-#modal span:hover{
-	background-color: hsl(85, 69%, 48%);
-}
 #close{
 	float: right;
 	color: #fff;
@@ -338,7 +297,7 @@ form *{
 }
 #close:hover{
 	color:gray;
-}
+}*/
 
 @media only screen and (max-width: 600px) {
     body {

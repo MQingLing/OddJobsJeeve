@@ -4,12 +4,7 @@ const myArr = JSON.parse(text);
 
 $("#avatar").src = myArr[0];
 */
-$(".register-pop-up").hide();
 
-$(".register").onclick = function()
-{
-  $(".register-pop-up").show();
-};
 
 //Api 
 $(document).ready(function () 
@@ -125,14 +120,4 @@ $('#close').click(function(){
         $('#modal').fadeOut();
     return false;
 });
-  if(waitSong.paused)
-  {
-    waitSong.play();
-    music_icon.className = "fas fa-volume-up";
-  }
-  else
-  {
-    waitSong.pause();
-    music_icon.className = "fas fa-volume-mute";
-  }
-};
+
