@@ -4,20 +4,11 @@ const myArr = JSON.parse(text);
 
 $("#avatar").src = myArr[0];
 */
-
 $(".register-pop-up").hide();
 
 $(".register").onclick = function()
 {
-  console.log("is this working")
-  if($(".register-pop-up").is(":visible"))
-  {
-    $(".register-pop-up").hide();
-  }
-  else
-  {
-    $(".register-pop-up").show();
-  }
+  $(".register-pop-up").show();
 };
 
 //Api 

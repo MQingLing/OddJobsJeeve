@@ -37,14 +37,52 @@ h2 {
 {
     width: 300px;
     height: 170px;
-    background-color: azure;
-    opacity: 0.9;
+    background-color: rgb(235, 235, 116);
 
     position: absolute;
     top: 26%;
     left: 8.5%;
+    border-radius: 5%;
 }
 
+.register-pop-up .user label
+{
+    position: absolute;
+    left: 5%;
+    top: 23%;
+}
+
+.register-pop-up .pass label
+{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+.register-pop-up #username{
+    position: absolute;
+    top:20%;
+}
+.register-pop-up #password{
+    position: absolute;
+    top: 47%;
+}
+
+.register-pop-up button
+{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    right: 5%;
+    bottom: 7%;
+}
+
+#close
+{
+    font-size: 25px;
+}
+
+/*To position and style the login*/
 .user label{
     position: absolute;
     text-transform: uppercase;
@@ -86,12 +124,16 @@ h2 {
     border: none;
 }
 
+/*To position lottie*/
 #avatar
 {
     position: absolute;
     bottom: 28%;
     left: 13%;
+    z-index: -1;
 }
+
+/*To position and style buttons*/
 .play-button{
     position: absolute;
     border-radius: 35px;
@@ -111,7 +153,6 @@ h2 {
     bottom: 29%;
     left: 26%;
 }
-
 
 .menu-button{
     position: absolute;
