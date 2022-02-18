@@ -24,12 +24,12 @@ We made 4 lottie animations where 2 were static and 2 were looped. The static on
 - [burger](https://lottiefiles.com/share/rnzjt248)
 
 We made a sprite sheet which is made with pixels in photoshop for the game
-<img src="../Interactive_Media_Application/img/avatar-sprite.png">
+<img src="img/avatar-sprite.pngimg/avatar-sprite.png">
 
 We made icons in illustrator that the player need to collect
-<img src="Design/Avatar/Fries.png" width="150px" height="100px">
+<img src="Design/Avatar/Fries.png" width="100px" height="100px">
 <img src="Design/Avatar/OriginalBurger.png" width="150px" height="100px">
-<img src="Design/Avatar/Ice-cream.png" width="150px" height="100px">
+<img src="Design/Avatar/Ice-cream.png" width="100px" height="100px">
 
 We also made music and soundeffect for the user to enjoy
 <audio loop src="../Interactive_Media_Application/assets/music/waitingMusic.mp3" type="audio/mp3"></audio>
