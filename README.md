@@ -8,15 +8,8 @@ The gameplay, consists of a platformer mechanic where the player would move Jeev
 We implemented a highscore leaderboard to spark our players competitiveness while playing the game. After each level, a leaderboard would be displayed showing the top 10 players that scored the top 10 highest scores.
 
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+After we decided on our theme, we made a low fidelity wireframe as seen here. This would be a draft for our future edits.
+<img src="Design/Wireframe/Screenshot%20(91).png" width="300px" height="150px">
 
 Since this game is dedicated to children, we choose a bright color pallete to use in the design of the game. This is because children are more likely to be more attentive while playing the game if it is colored with flashy and bright colors instead of dull and neutral colors. This can be seen in out design of the homepage shown below.
 <img src="Design/Background/startscreen.png" width="150px" height="300px">
@@ -24,19 +17,38 @@ Since this game is dedicated to children, we choose a bright color pallete to us
 We made the design of the character to be cute and innocent looking by using soft strokes and more curved lines. We also choose to make our homepage more lively by adding a lottie animation of the avatar jumping up and down happily. This to give the impression of friendliness and joy to children while they are playing the game.
 <img src="Design/Avatar/AvatarMovement.png">
 
-## Features
+We made 4 lottie animations where 2 were static and 2 were looped. The static ones are of fries and burger and the looped ones are of the avatar bouncing and swaying cutely. 
+- [avatar-bouncing](https://lottiefiles.com/share/9cdoucbf)
+- [avatar-swaying](https://lottiefiles.com/share/fdnpwmcq)
+- [fries](https://lottiefiles.com/share/futh09vo)
+- [burger](https://lottiefiles.com/share/rnzjt248)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+We made a sprite sheet which is made with pixels in photoshop for the game
+<img src="../Interactive_Media_Application/img/avatar-sprite.png">
+
+We made icons in illustrator that the player need to collect
+<img src="../Interactive_Media_Application/Design/Avatar/Fries.png">
+<img src="../Interactive_Media_Application/Design/Avatar/Burger.png">
+<img src="../Interactive_Media_Application/Design/Avatar/Ice-cream.png">
+
+We also made music and soundeffect for the user to enjoy
+<audio loop src="../Interactive_Media_Application/assets/music/waitingMusic.mp3" type="audio/mp3"></audio>
+<audio loop src="../Interactive_Media_Application/assets/music/hey_sfx.m4a" type="audio/m4a"></audio>
+
+## Features 
 ### Homepage
 - When the user clicks on the moving effect logo ("Odd Jobs"), a sound effect is played.
-- ...
+- When the user clicks on the music icon, music would be played
+- User would be greeted by looped lottie of the character bouncing and static lotties of food which are representative of the game items.
+- The instruction button would redirect the user to the instructions page
+- The START GAME button would redirect the user to the login page
 
 ### Login 
 - On the login page, player should input their account information, such as their username and password, which they created previously
 - The sign up button enables the player to access a pop-up mini-signup form/page
 - User can click on the round play button to redirect them into the level selection page
 - Player can return to the home page by clicking the round back button
+- There is also a music button for the user to listen to the music
 
 ### Sign up
 - Player can enter their login and password into a pop-up mini signup form/page, which will be saved in the database system
@@ -45,16 +57,17 @@ In this section, you should go over the different parts of your project, and des
 - This page allows users to view both unlocked and locked game levels
 - The locked levels are not clickable and cannot redirect the player to the game's level web page.
 - The unlocked level is clickable, and clicking it redirects the player to the game's web page.
-- ...
+- There is also a music button for the user to listen to the music
+- There is a return to menu button also
 
 ### Game
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
+- This page is the game where user can use arrow keys on the keyboard to move the player 
+- The player would have to avoid lava while collecting burgers
+- If they collect all the burgers, they win and would be redirected to the main page
+- If they touch the lava, they lose and would be redirected to the main page.
 ### Features Left to Implement
-- Another feature idea
+- Highscore leaderboard where the top players would have their name and highscore listed in the game over or game win screen.
+- Character customisation where the player can choose what color the avatar can be in.
 
 ## Technologies Used
 
@@ -82,35 +95,30 @@ In addition, you may also use this section to discuss plans for additional featu
     - **Canvas** was used to draw graphics via scripting(js). For instance, background the the web game
 - [DOM](https://www.w3schools.com/js/js_htmldom.asp)
     - **DOM** comprise the structure and content of a document on the web.
-- Recorder
+- Voice recorder
     - **Recorder** was used to record the music played in the web game.
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
+1. Sign up form:
+    1. Go to the "Login" page and press the "Sign up" button
     2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    3. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+This project works on chrome in desktop and samsung mobile view.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Chrome has this policy where they dont allow autoplay so even though we wanted the music to be autoplayed, we are unable to implement it in chrome. So we decided to scrap the autoplay idea and just have the users play the music by themselves. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Credits
-
-### Content
+### Credits and Content
 - [CodePen](https://codepen.io/)
    - Reference for the signup section
+- Youtube account (https://www.youtube.com/watch?v=w-OKdSHRlfA) from freeCodeCamp.org by Poth on Programming
+  - Reference for the game
 
 ### Media
 - Credit to Hanisah for the lottie animation and photoshop avatar inculding background
 - Credit to Qing Ling for the adobe illustrator for the game items
+- Credit to Font Awesome for providing good free icons!
 
 ### Acknowledgements
-
-- I received inspiration for this project from platformer game **mario**
+- We received inspiration for this project from platformer game **mario**
