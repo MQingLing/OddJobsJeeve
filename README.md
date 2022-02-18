@@ -29,11 +29,22 @@ We made the design of the character to be cute and innocent looking by using sof
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Homepage
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- When the user clicks on the moving effect logo ("Odd Jobs"), a sound effect is played.
 - ...
 
+### Login 
+- On the login page, player should input their account information, such as their username and password, which they created previously
+- The sign up button enables the player to access a pop-up mini-signup form/page
+- User can click on the round play button to redirect them into the level selection page
+- Player can return to the home page by clicking the round back button
+
+### Sign up
+- Player can enter their login and password into a pop-up mini signup form/page, which will be saved in the database system
+
 ### Level
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- This page allows users to view both unlocked and locked game levels
+- The locked levels are not clickable and cannot redirect the player to the game's level web page.
+- The unlocked level is clickable, and clicking it redirects the player to the game's web page.
 - ...
 
 ### Game
