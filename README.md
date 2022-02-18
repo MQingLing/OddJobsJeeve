@@ -110,7 +110,7 @@ Chrome has this policy where they dont allow autoplay so even though we wanted t
 ### Credits and Content
 - [CodePen](https://codepen.io/)
    - Reference for the signup section
-- Youtube account (https://www.youtube.com/watch?v=w-OKdSHRlfA) from freeCodeCamp.org by Poth on Programming
+- [Youtube](https://www.youtube.com/watch?v=w-OKdSHRlfA) account from freeCodeCamp.org by Poth on Programming
   - Reference for the game
 
 ### Media
