@@ -27,9 +27,9 @@ We made a sprite sheet which is made with pixels in photoshop for the game
 <img src="../Interactive_Media_Application/img/avatar-sprite.png">
 
 We made icons in illustrator that the player need to collect
-<img src="Design/Avatar/Fries.png">
-<img src="../Interactive_Media_Application/Design/Avatar/Burger.png">
-<img src="../Interactive_Media_Application/Design/Avatar/Ice-cream.png">
+<img src="Design/Avatar/Fries.png" width="150px" height="300px">
+<img src="Design/Avatar/OriginalBurger.png" width="150px" height="300px">
+<img src="Design/Avatar/Ice-cream.png" width="150px" height="300px">
 
 We also made music and soundeffect for the user to enjoy
 <audio loop src="../Interactive_Media_Application/assets/music/waitingMusic.mp3" type="audio/mp3"></audio>
