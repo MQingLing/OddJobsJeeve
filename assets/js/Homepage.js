@@ -43,7 +43,7 @@ var startButton = document.querySelector(".start_button")
 
 startButton.onclick = function () 
 {
-    location.href = "../html/Login.html";
+    location.href = "assets/html/Login.html";
 }
 
 //redirect to tutorial page
@@ -51,5 +51,5 @@ var startButton = document.querySelector(".intructions_button")
 
 startButton.onclick = function () 
 {
-    location.href = "../html/tutorial.html";
+    location.href = "assets/html/tutorial.html";
 }

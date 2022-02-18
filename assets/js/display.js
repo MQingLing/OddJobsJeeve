@@ -65,13 +65,13 @@ function runGame(plans, Display) {
 			if(status == "lost")
 			{
 				alert("You lose! GAME OVER");
-				location.href = "../Interactive_Media_Application/assets/html/Homepage.html";
+				location.href = "index.html";
 			}
 			else
 			{
 				console.log("You win!");
 				alert("You win!");
-				location.href = "../Interactive_Media_Application/assets/html/Homepage.html";
+				location.href = "index.html";
 			}
 		});
 	}

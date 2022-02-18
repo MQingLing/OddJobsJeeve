@@ -20,5 +20,5 @@ music_icon.onclick = function()
 
 //redirect to main page
 document.querySelector(".menu-button").onclick = function () {
-    location.href = "../html/Homepage.html";
+    location.href = "../../index.html";
 };
