@@ -39,11 +39,30 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [HTML]
+    - The project uses **HTML** to create content for the web game.
+- [CSS]
+    - **CSS** to style the content of the web game.
+- [Normalize CSS]
+    - **Normalize CSS** was used to normalize styles across browsers so that the style will be consistent.
+- [JavaScript]
+    - **JavaScript** to allow the web game to be interactive and API implementation.
+- [Lottie] 
+    - **Lottie** was used to create avatar animation.
+- [Photoshop]
+    - **Photoshop**
+- [Adobe Illustrator]
+    - **AI** was used to create Sprite Sheet for the movement of characters in game.
+- [Font Awesome]
+    - Retrived icon design from font awesome.
+- [RestDB]
+    - **RestDB** for storing username and password. 
+- [JQuery]
+    - Collection of the "items" in each web game level.
+- [Canvas]
+    - **Canvas** was used to draw graphics via scripting(js). For instance, background the the web game
+- [DOM]
+    - **DOM** comprise the structure and content of a document on the web
 
 ## Testing
 
