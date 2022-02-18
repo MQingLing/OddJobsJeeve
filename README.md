@@ -22,7 +22,7 @@ Since this game is dedicated to children, we choose a bright color pallete to us
 <img src="Design/Background/startscreen.png" width="150px" height="300px">
 
 We made the design of the character to be cute and innocent looking by using soft strokes and more curved lines. We also choose to make our homepage more lively by adding a lottie animation of the avatar jumping up and down happily. This to give the impression of friendliness and joy to children while they are playing the game.
-<img src="Design/Avatar/AvatarMovement">
+<img src="Design/Avatar/AvatarMovement.png">
 
 ## Features
 
