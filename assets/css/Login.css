@@ -67,26 +67,6 @@ h2 {
     border: none;
 }
 
-/* forget password*/
-#forgot-link
-{
-    color: rgb(255, 255, 140);
-    text-shadow: 1px 1px 0 black;
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    font-size: 18px;
-    cursor:pointer;
-}
-
-a{
-	outline: 0;
-	text-decoration: none;
-    /*color: #0FC491;*/
-    color: rgb(255, 255, 140);
-    text-shadow: 1px 1px 0 black;
-}
-
 /*Signup button on avatar page*/
 .signup-button{
 	font-size:20px;
@@ -301,16 +281,10 @@ form *{
         top: 14%;
     }
 
-    #forgot-link
-    {
-        left: 38%;
-        top: 45%;
-    }
-
     .signup-button
     {
-        right: 33%;
-        top: 38%;
+        right: 37%;
+        top: 33%;
     }
 
     #avatar

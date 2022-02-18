@@ -43,7 +43,7 @@ var startButton = document.querySelector(".start_button")
 
 startButton.onclick = function () 
 {
-    location.href = "../html/Avatar-Selection.html";
+    location.href = "../html/Login.html";
 }
 
 //redirect to tutorial page
