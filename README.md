@@ -98,7 +98,7 @@ We also made music and soundeffect for the user to enjoy.
 
 ## Testing
 
-1. Sign up form:
+- Sign up form:
     1. Go to the "Login" page and press the "Sign up" button
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with all inputs valid and verify that a success message appears.
