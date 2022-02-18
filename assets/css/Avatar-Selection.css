@@ -6,16 +6,18 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+/*To position and style the title*/
 h2 {
     position: absolute;
     text-transform: uppercase;
     color: rgb(255, 255, 140);
     text-shadow: 3px 3px 0 #3c5b10;
-    font-size: 25px;
-    left: 18%;
+    font-size: 28px;
+    left: 6%;
     top: 5%;
 }
 
+/*To position and style the confirmation*/
 #success-login
 {
     position: absolute;
@@ -24,54 +26,97 @@ h2 {
     color: hsl(85, 70%, 31%);
 }
 
-
-/*To position and style the login*/
-.user label{
-    position: absolute;
-    text-transform: uppercase;
+/*To position and style the form data*/
+.login
+{
     font-size: 18px;
-    left: 10%;
-    top: 30%;
-}
-#username{
-    position: absolute;
     text-transform: uppercase;
+
+    position: absolute;
+    left: -6.5%;
+    top: 10%;
+}
+
+.user
+{
+    display: flex;
+    justify-content: center;
+}
+
+#username{
     color: black;
     opacity: 0.65;
     font-size: 15px;
-    left: 40%;
-    top: 29.3%;
     height: 30px;
     border-radius: 35px;
     border: none;
 }
 
-.pass label{
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 18px;
-    left: 10%;
-    top: 40%;
+.pass
+{
+    display: flex;
+    justify-content: center;
 }
 
 #password{
-    position: absolute;
-    text-transform: uppercase;
     color: black;
     opacity: 0.5;
     font-size: 15px;
-    left: 40%;
-    top: 39.3%;
     height: 30px;
     border-radius: 35px;
     border: none;
+}
+
+/* forget password*/
+#forgot-link
+{
+    color: rgb(255, 255, 140);
+    text-shadow: 1px 1px 0 black;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+a{
+	outline: 0;
+	text-decoration: none;
+    /*color: #0FC491;*/
+    color: rgb(255, 255, 140);
+    text-shadow: 1px 1px 0 black;
+}
+
+/*Signup button on avatar page*/
+.signup-button{
+	font-size:20px;
+	color:rgb(255, 255, 140);
+    text-shadow: 1px 1px 0 black;
+	cursor:pointer;
+
+    position:absolute;
+    top: 28%;
+    right: -5%;
+	margin:50px 70px;
+ 	-webkit-transition:margin 100ms;
+	-moz-transition:margin 100ms;
+	transition:margin 100ms ;	
+}
+.signup-button:active{
+   margin: 53px 70px;
+}
+
+.signup-button:hover{
+	background: white;
+    color: #98ddf8;
+    text-shadow: none;
 }
 
 /*To position lottie*/
 #avatar
 {
     position: absolute;
-    bottom: 28%;
+    bottom: 31%;
     left: 13%;
     z-index: -1;
 }
@@ -152,58 +197,11 @@ button{
     color:black;
 }
 
-/* forget password*/
-#forgot-link{
-    /*color: #0FC491;*/
-    color: rgb(255, 255, 140);
-    text-shadow: 0px 1px 0 black;
-    position: absolute;
-    bottom: 385px;
-    left: 38px;
-}
-#forgot-link:active{
-    margin: 3px 5px;
- }
-a{
-	outline: 0;
-	text-decoration: none;
-    /*color: #0FC491;*/
-    color: rgb(255, 255, 140);
-    text-shadow: 1px 1px 0 black;
-}
 .modal-bg{
 	position:absolute;
 	left:0;right:0;
 	top:0;bottom:0;
 	background-color:rgba(50,50,50,0.5);
-}
-
-/*Signup button on avatar page*/
-.signup-button{
-	position:absolute;
-	font-size:17px;
-	opacity: 0.9;
-	border-radius: 30px;
-	padding:7px 15px;
-	color:rgb(255, 255, 140);
-    font-weight: bold;
-    text-shadow: 0px 1px 0 black;
-	cursor:pointer;
-    bottom: 40%;
-    left: 20%;
-	margin:50px 70px;
- 	-webkit-transition:margin 100ms;
-	-moz-transition:margin 100ms;
-	transition:margin 100ms ;	
-}
-.signup-button:active{
-   margin: 53px 70px;
-}
-
-.signup-button:hover{
-	background: white;
-    color: #98ddf8;
-    text-shadow: none;
 }
 
 form{
@@ -271,6 +269,7 @@ form *{
     background-color: white;
 
 }
+
 #submit-button:active{
 	margin: 18px 10px;
 }
@@ -278,7 +277,6 @@ form *{
 	background-color:#98ddf8;
     color: white;
 }
-
 
 #modal span{
 	display: block;
@@ -297,4 +295,73 @@ form *{
 }
 #close:hover{
 	color:gray;
+}
+
+@media (min-width:1200px)
+{
+    /*To change the bg img something more suited to desktop*/
+    body
+    {
+        background-image: url('../../Design/Background/desktop.png');
+    }
+
+    h2
+    {
+        font-size: 45px;
+        left: 35%;
+        top: 1%;
+    }
+
+    .login
+    {
+        left: 37%;
+        font-size: 25px;
+        top: 18%;
+    }
+
+    #forgot-link
+    {
+        left: 38%;
+        top: 45%;
+    }
+
+    .signup-button
+    {
+        right: 33%;
+        top: 38%;
+    }
+
+    #avatar
+    {
+        left: 42%;
+        top: 38%;
+    }
+
+    /*To position and style buttons*/
+    .play-button{
+        bottom: 10%;
+        left: 57%;
+    }
+
+    .menu-button{
+        bottom: 10%;
+        left: 49%;
+    }
+
+    .color-button{
+        bottom: 10%;
+        left: 40%;
+    }
+
+    /*To position and resize music note icon*/
+    .music_notes
+    {
+        bottom: 11.5%;
+        left: 32%;
+    }
+    .music_notes i
+    {
+        font-size:36px; 
+        color:black;
+    }
 }
