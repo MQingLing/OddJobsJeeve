@@ -28,7 +28,15 @@ We made the design of the character to be cute and innocent looking by using sof
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
-### Existing Features
+### Homepage
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
+
+### Level
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
+
+### Game
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -85,11 +93,13 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- [CodePen](https://codepen.io/)
+   - Reference for the signup section
 
 ### Media
-- The photos used in this site were obtained from ...
+- Credit to Hanisah for the lottie animation and photoshop avatar inculding background
+- Credit to Qing Ling for the adobe illustrator for the game items
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from platformer game **mario**
