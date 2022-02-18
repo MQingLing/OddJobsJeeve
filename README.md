@@ -1,13 +1,11 @@
 # OddJobs Jeeve
+OddJobs Jeeve is a platformer game targeted towards children with the purpose of entertainment. Children would be enamoured with the cute design of the website where they will be playing as this cute puffle creature named Jeevies. Currently the website is solely made as a passion project in order to give smiles to children. 
 
-OddJobs Jeeve is made with the purpose for entertainment. This is a platformer game with a story concept that follows a small puffle creature called Jeeve and its journey through adult life where they would have to work hard juggling their many jobs just to survive in this competitive society. 
+The story concept of the game is that Jeeve is working hard to earn money in the city of Jeevies and it is constantly working odd jobs to get by. Each level would represent a different job such as the first level following a fast food worker theme and the second level following a laundromat theme. 
 
-In each Stage, it follows a different theme. For example, Stage 1 would have a fast food worker theme where the background and items would be representative of a fast food restaurant such as fries and burgers. Stage 2 would have a laundry worker theme where the background and items would be representative of a laundromat such as dirty shirts and pants and so on. 
+The gameplay, consists of a platformer mechanic where the player would move Jeeve through platforms to collect items. Each item would give them an amount of points. For example, in the first level, the burger item would be +20 points, the fries item would be +10 points, the soda item would be +5 points.
 
-For the gameplay, it follows a simple platformer type mechanic where the player would move Jeeve and jump on platforms to collect the items. Each item would have their own points. The burger item would be +20 points, the fries item would be +10 points, the soda item would be +5 points etc.
-
-The players highscore per level and username would be stored in database via API. If they are the top 20 player in terms of highscore, their highscore would be available to be seen for all players that played the game at the end of each level.
-https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ed016ff6-d690-35ac-a99d-845713088ff1
+We implemented a highscore leaderboard to spark our players competitiveness while playing the game. After each level, a leaderboard would be displayed showing the top 10 players that scored the top 10 highest scores.
 
 ## Design Process
  
@@ -19,6 +17,15 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+
+Since this game is dedicated to children, we choose a bright color pallete to use in the design of the game. This is because children are more likely to be more attentive while playing the game if it is colored with flashy and bright colors instead of dull and neutral colors. This can be seen in out design of the background shown below.
+<img src="Design/Background/levelscreen.png" alt="Logo">
+
+We made the design of the character to be cute and innocent looking by using soft strokes and more curved lines. We also choose to make our homepage more lively by adding a lottie animation of the avatar jumping up and down happily. This to give the impression of friendliness and joy to children while they are playing the game.
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_9cdoucbf.json" background="transparent" speed="1" loop autoplay class="avatar"></lottie-player>
+        
+
 
 ## Features
 
