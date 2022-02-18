@@ -22,10 +22,16 @@ h2 {
 {
     position: absolute;
     left: 29%;
-    top: 18%;
+    top: 12%;
     color: hsl(85, 70%, 31%);
 }
-
+#success-sign-up
+{
+    position: absolute;
+    left: 26%;
+    top: 10%;
+    color: hsl(85, 70%, 31%);
+}
 /*To position and style the form data*/
 .login
 {
@@ -272,6 +278,17 @@ form *{
         font-size: 45px;
         left: 44%;
         top: 1%;
+    }
+    /*To position and style the confirmation*/
+    #success-login
+    {
+        left: 44.5%;
+        top: 14%;
+    }
+    #success-sign-up
+    {
+        left: 26%;
+        top: 10%;
     }
 
     .login

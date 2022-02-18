@@ -5,7 +5,9 @@ $(document).ready(function ()
   const APIKEY = "620e21dd34fd621565858705";
   
   getPlayerInfo();
-  $("#success-login").hide();
+  
+  $('#success-login').hide();
+  $('#success-sign-up').hide();
   $('#modal').hide();
   $('.modal-bg').hide();	
 
