@@ -79,7 +79,7 @@ body {
 .aim .items img
 {
     width: 100px;
-    height: 200px;
+    height: 160px;
 }
 
 /*To position and style the back to menu button*/
@@ -175,7 +175,7 @@ button:hover, button:active {
     .aim .items img
     {
         width: 50px;
-        height: 100px;
+        height: 60px;
     }
     /*To position and style the music note*/
     .music_notes
