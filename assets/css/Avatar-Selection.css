@@ -13,7 +13,7 @@ h2 {
     color: rgb(255, 255, 140);
     text-shadow: 3px 3px 0 #3c5b10;
     font-size: 28px;
-    left: 6%;
+    left: 36%;
     top: 5%;
 }
 
@@ -290,15 +290,15 @@ form *{
     h2
     {
         font-size: 45px;
-        left: 35%;
+        left: 44%;
         top: 1%;
     }
 
     .login
     {
-        left: 37%;
+        left: 35%;
         font-size: 25px;
-        top: 18%;
+        top: 14%;
     }
 
     #forgot-link
