@@ -19,8 +19,8 @@ $(document).ready(function ()
     //[STEP 2]: let's retrieve form data
     //for now we assume all information is valid
     //you are to do your own data validation
-    let userName = $("#username").val();
-    let passWord = $("#password").val();
+    let userName = $(".sign-up-form #signup-username").val();
+    let passWord = $(".sign-up-form #signup-password").val();
 
     //[STEP 3]: get form values when user clicks on send
     //Adapted from restdb api
@@ -65,7 +65,7 @@ $(document).ready(function ()
       $("#submit-button").prop( "disabled", false);
       
       //@TODO update frontend UI 
-      $("#success-login").show().fadeOut(3000);
+      $("#success-sign-up").show().fadeOut(3000);
 
       //update our table 
       getPlayerInfo();
@@ -75,7 +75,8 @@ $(document).ready(function ()
   //[STEP] 6
   //let's create a function to allow you to retrieve all the information in your contacts
   //by default we only retrieve 10 results
-  function getPlayerInfo(limit = 10, all = true) {
+  function getPlayerInfo(limit = 10, all = true) 
+  {
 
     //[STEP 7]: Create our AJAX settings
     let settings = 
@@ -97,31 +98,24 @@ $(document).ready(function ()
       
       let content = "";
 
-      for (var i = 0; i < response.length && i < limit; i++) {
-        //console.log(response[i]);
-        //[METHOD 1]
-        //let's run our loop and slowly append content
-        //we can use the normal string append += method
-        /*
-        content += "<tr><td>" + response[i].name + "</td>" +
-          "<td>" + response[i].email + "</td>" +
-          "<td>" + response[i].message + "</td>
-          "<td>Del</td><td>Update</td</tr>";
-        */
-
+      for (var i = 0; i < response.length && i < limit; i++) 
+      {
         //[METHOD 2]
         //using our template literal method using backticks
         //take note that we can't use += for template literal strings
         //we use ${content} because -> content += content 
         //we want to add on previous content at the same time
-        content = `${content}<tr id='${response[i]._id}'>
+        content = `${content}
+        <tr id='${response[i]._id}'>
         <td>${response[i].username}</td>
         <td>${response[i].password}</td>
         <td>${response[i].highscore}</td>
-        <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' 
-        data-sName='${response[i].username}' 
-        data-sEmail='${response[i].password}'
-        data-sId='${response[i].highscore}'>Update</a></td></tr>`;
+        <td><a href='#' class='delete' 
+        data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' 
+        data-id='${response[i]._id}' 
+        data-highscore='${response[i].highscore}'
+        data-username='${response[i].username}'
+        data-password='${response[i].password}'>Update</a></td></tr>`;
       }
 
       //[STEP 9]: Update our HTML content
