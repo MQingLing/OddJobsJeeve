@@ -162,24 +162,6 @@ a{
     left: 26%;
 }
 
-.color-button{
-    position: absolute;
-    border-radius: 35px;
-    bottom:20%;
-    left: 13%;
-    width: 55px;
-    height: 55px;
-    font-size: 25px;
-    background: white;
-    color: hsl(85, 70%, 31%);
-}
-
-.color-button #icon {
-    position: absolute;
-    width: 25px;
-    bottom: 29%;
-    left: 26%;
-}
 button{
     border: none;
 }
@@ -188,12 +170,12 @@ button{
 .music_notes
 {
     position: absolute;
-    left: 10%;
-    bottom: 5%;
+    left: 11.5%;
+    bottom: 21%;
 }
 .music_notes i
 {
-    font-size:36px; 
+    font-size:38px; 
     color:black;
 }
 
@@ -348,20 +330,15 @@ form *{
         left: 49%;
     }
 
-    .color-button{
-        bottom: 10%;
-        left: 40%;
-    }
-
     /*To position and resize music note icon*/
     .music_notes
     {
-        bottom: 11.5%;
-        left: 32%;
+        bottom: 11%;
+        left: 40.5%;
     }
     .music_notes i
     {
-        font-size:36px; 
+        font-size:38px; 
         color:black;
     }
 }
