@@ -166,7 +166,7 @@ function CanvasDisplay(parent, level) {
 	this.sprites = document.createElement("img");
 	this.sprites.src = "img/bg_sprites.png";
 	this.playerSprite = document.createElement("img");
-	this.playerSprite.src = "img/player_sprite.png"; //<---
+	this.playerSprite.src = "img/avatar-sprite.png"; //<---
 	this.playerXOverlap = 4;
 
 	this.viewport = {
